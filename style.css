@@ -1,0 +1,90 @@
+/* smartphone */
+@media only screen and (max-width: 300px) {
+  body {
+      background-color: red;
+  }
+
+
+
+
+
+
+  /*  small, no medium no large */
+  div#medium, div#large {
+      display: none;
+  }
+  div#small {
+      font-size: 10px;
+  }
+  #small{
+    float: left;
+}
+
+    p{display: inline-block;}
+    .col-1 {width: 100%}
+    .col-2 {width: 100%}
+    .col-3 {width: 100%}
+}
+
+
+
+
+
+
+/* tablette */
+@media only screen and (max-width: 768px) {
+  body {
+      background-color: green;
+      width: 100vw;
+      display: inline;
+  }
+  /* medium, no small no large */
+  div#small, div#large {
+      display: none;
+  }
+  div#medium {
+      font-size: 15px;
+  }
+  #medium{
+    float: left;
+  }
+
+    p{display: inline-block;}
+    .col-1 {width: 66%}
+    .col-2 {width: 33%}
+    .col-3 {width: 100%}
+}
+
+
+
+
+
+
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+  body {
+      background-color: blue;
+      width: 100vw;
+      margin: 0;
+  }
+  /* large, no medium no small */
+  div#medium, div#small {
+      display: none;
+  }
+  div#large {
+      font-size: 20px;
+  }
+    /* colcol ok */
+  #large{
+      float: left;
+  }
+
+  p{display: inline-block;}
+  .col-1 {width: 33%}
+  .col-2 {width: 33%}
+  .col-3 {width: 33%}
+}
+
+
+
